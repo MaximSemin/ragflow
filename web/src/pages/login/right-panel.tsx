@@ -20,9 +20,6 @@ const LoginRightPanel = () => {
         >
           {t('title')}
         </Title>
-        <Text className={classNames(styles.pink, styles.loginDescription)}>
-          {t('description')}
-        </Text>
       </Flex>
     </section>
   );
